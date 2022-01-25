@@ -1,0 +1,65 @@
+@media (min-width: 768px) {
+
+  .blockContact{
+    border-radius: 10px;
+    margin-top: 5px;
+    background: #D5EBE8;
+    display: flex;
+    justify-content: space-between;
+    &_avatar {
+      margin-top: 5px;
+      img {
+        margin-left: 10px;
+        width: 30px;
+        height: 30px;
+        border-radius: 50%;
+      }
+      width: 30px;
+      height: 30px;
+      border-radius: 50%;
+    }
+    &_name {
+      margin-left: 10px;
+      font-family: 'Heebo', sans-serif;
+      font-size: 18px;
+    }
+    &_number{
+      color: gray;
+      font-size: 14px;
+    }
+    &_pic {
+      margin-right: 10px;
+      display: flex;
+      align-items: center;
+
+    }
+  }
+  .icon {
+    width: 25px;
+    height: 25px;
+  }
+  .contactDescription {
+    margin-left: 10px;
+    margin-top: 10px;
+    font-family: 'Karla', sans-serif;
+    color: darkcyan;
+   &_first {
+      display: flex;
+      align-items: center;
+     justify-content: space-between;
+     height: 43px;
+   }
+    &_second {
+      display: flex;
+      align-items: center;
+      span {
+        margin-left: 10px;
+      }
+
+    }
+  }
+
+
+
+}
+
